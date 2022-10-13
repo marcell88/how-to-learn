@@ -43,13 +43,12 @@
   width: 730px;
   z-index: 3;
   padding-left: 64px;
-  font-size: 102px;
-  line-height: 96px;
-  font-weight: 600;
 }
 
 .header__title-text {
-  font-size: 1em;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -59,13 +58,13 @@
   left: 64px;
   width: 388px;
   z-index: 2;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: normal;
 }
 
 .header__subtitle-text {
   margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .header__link {
