@@ -40,7 +40,7 @@
 
 .header__title {
   align-self: center;
-  width: 730px;
+  max-width: 730px;
   z-index: 3;
   padding-left: 64px;
 
@@ -54,7 +54,7 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
-  width: 388px;
+  max-width: 388px;
   z-index: 2;
 
   margin: 0;
@@ -105,7 +105,7 @@
 }
 
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
   line-height: 1.2em;
   font-size: 18px;
   font-weight: normal;
@@ -220,8 +220,7 @@
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  width: 648px;
-
+  max-width: 648px;
   line-height: 1.15em;
   font-size: 120px;
   font-weight: 600;
@@ -234,7 +233,6 @@
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
