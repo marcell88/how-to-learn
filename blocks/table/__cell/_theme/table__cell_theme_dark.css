@@ -1,0 +1,11 @@
+.table__cell_theme_dark {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: space-between;
+  /* и элемента с модификатором вида ключ-значение */
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  padding-top: 80px;
+}
