@@ -1,5 +1,6 @@
 /* Общие стили */
 @import url(../blocks/page/page.css);
+@import url(../blocks/rotation/rotation.css);
 
 /* Шапка сайта */
 @import url(../blocks/logo/logo.css);
