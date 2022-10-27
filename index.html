@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link href="./vendor/normalize.css" rel="stylesheet">
-  <link href="./pages/main-page.css" rel="stylesheet">
+  <link href="./index.css" rel="stylesheet">
 </head>
 
 <body>
@@ -77,8 +76,8 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-            <iframe class="video__iframe" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen></iframe>
-            <iframe class="video__iframe" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -209,23 +208,23 @@
         </div>
       </section>
 
-    </main>
-
     <!--Полезные ссылки-->
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-      <div class="resources__logo-zone">
-        <a class="resources__link" href="https://arzamas.academy/" target="_blank">
-          <img class="resources__logo" src="./images/images_sprint-2/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a>
-        <a class="resources__link" href="https://nplus1.ru/" target="_blank">
-          <img class="resources__logo" src="./images/images_sprint-2/logo/resources-n1.svg" alt="Логотип N+1"></a>
-        <a class="resources__link" href="#">
-          <img class="resources__logo" src="./images/images_sprint-2/logo/resources-strelka.svg" alt="Логотип Стрелка"></a>
-        <a class="resources__link" href="https://polka.academy/" target="_blank">
-          <img class="resources__logo" src="./images/images_sprint-2/logo/resources-polka.svg" alt="Логотип Полка"></a>
-      </div>
+      <ul class="resources__logo-zone">
+        <li><a class="resources__link" href="https://arzamas.academy/" target="_blank">
+          <img class="resources__logo" src="./images/images_sprint-2/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a></li>
+        <li><a class="resources__link" href="https://nplus1.ru/" target="_blank">
+          <img class="resources__logo" src="./images/images_sprint-2/logo/resources-n1.svg" alt="Логотип N+1"></a></li>
+        <li><a class="resources__link" href="#">
+          <img class="resources__logo" src="./images/images_sprint-2/logo/resources-strelka.svg" alt="Логотип Стрелка"></a></li>
+        <li><a class="resources__link" href="https://polka.academy/" target="_blank">
+          <img class="resources__logo" src="./images/images_sprint-2/logo/resources-polka.svg" alt="Логотип Полка"></a></li>
+        </ul>
     </section>
+
+  </main>
 
     <!--ПОДВАЛ САЙТА-->
     <footer class="footer">
