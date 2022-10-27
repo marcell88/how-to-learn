@@ -4,4 +4,9 @@
   margin: 0;
   padding: 0;
   display: flex;
+  transition: opacity 0.5s linear;
+}
+
+.resources__link:hover {
+  opacity: 0.4;
 }
