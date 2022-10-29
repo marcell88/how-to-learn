@@ -78,6 +78,19 @@
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
 /* Полезные ссылки */
+ @import url(../blocks/form/form.css);
+ @import url(../blocks/form/__container/form__container.css);
+ @import url(../blocks/form/__contacts/form__contacts.css);
+ @import url(../blocks/form/__email/form__email.css);
+ @import url(../blocks/form/__name/form__name.css);
+ @import url(../blocks/form/__text/form__text.css);
+ @import url(../blocks/form/__button/form__button.css);
+ 
+ 
+ 
+ 
+
+/* Полезные ссылки */
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__link/resources__link.css);
