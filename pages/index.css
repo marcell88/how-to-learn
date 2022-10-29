@@ -87,6 +87,8 @@
  @import url(../blocks/form/__button/form__button.css);
  @import url(../blocks/form/__button-container/form__button-container.css);
  @import url(../blocks/form/__button-text/form__button-text.css);
+ @import url(../blocks/form/__button-arrow/form___button-arrow.css);
+
 
 /* Полезные ссылки */
 @import url(../blocks/resources/resources.css);
