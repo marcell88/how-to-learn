@@ -8,6 +8,8 @@
     border-left: 1px solid white;
     border-right: 1px solid white;
     outline: none;
+    margin: 0;
+    padding: 10px 0 10px 10px;
 }
 
 .form__email:focus {
