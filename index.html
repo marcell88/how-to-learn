@@ -148,8 +148,8 @@
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
 
-          <!-- По вашей рекомендации добавил цитатой. Обнуление пред-заданных свойств для p и blockquote решил через то, что присвоил им один класс, 
-            ХОТЯ не уверен что это самый изящный способ (где задается свойства текста и обнудение margin/padding). 
+          <!-- По вашей рекомендации добавил цитатой. Обнуление пред-заданных свойств для p и blockquote решил через то, что присвоил им один класс,
+            ХОТЯ не уверен что это самый изящный способ (где задается свойства текста и обнудение margin/padding).
             Наверное, если бы не был ограничен элементами создал бы 2 класса, khan__quote для blockquote и khan__quote-text для p, но это было бы не по брифу...-->
           <blockquote class="khan__quote">
             <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
@@ -216,16 +216,16 @@
       </section>
 
     <!--Форма обратной связи-->
-     <section class="form"> 
+     <section class="form">
       <h2 class="section-title">Напиши нам</h2>
-      <p class="section-subtitle">Интересные ссылки, мнение или просто напиши "привет"</p> 
-      <form action="mailto:marcell.davydov@gmail.ru" method="post" enctype="text/plain" class="form__container">
+      <p class="section-subtitle">Интересные ссылки, мнение или просто напиши "привет"</p>
+      <form action="https://formsubmit.co/marcell.davydov@gmail.com" method="post" class="form__container">
 
         <fieldset class="form__contacts">
-          <input class="form__email" type="email" placeholder="E-mail"required>
-          <input class="form__name" type="text" placeholder="Ваше имя" required>
+          <input class="form__email" type="email" placeholder="E-mail" required name="email">
+          <input class="form__name" type="text" placeholder="Ваше имя" required name="name">
         </fieldset>
-        <textarea class="form__text" placeholder="Введите сообщение"></textarea>
+        <textarea class="form__text" placeholder="Введите сообщение" name="textarea"></textarea>
         <button class="form__button">Отправить</button>
 
       </form>
