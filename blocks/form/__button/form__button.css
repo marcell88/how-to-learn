@@ -9,12 +9,12 @@
   margin: 0;
   padding: 0;
   position: relative;
+  transition: background-color 0.5s linear, color 0.3s linear, transform 0.2s;
 }
 
 .form__button:hover {
   background-color:#2f80ed;
   color: white;
-  transition: background-color 0.5s linear, color 0.3s linear;
 }
 
 .form__button:active {
