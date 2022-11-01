@@ -14,7 +14,7 @@
   margin: 0;
   padding: 0;
   position: relative;
-  transition: transform 1s linear;
+  transition: transform 0.3s linear;
 }
 
 .form__button::after {
@@ -36,7 +36,7 @@
 
 .form__button:hover::after {
   background-color:#2f80ed;
-  transition: background-color 0.3s 1s linear;
+  transition: background-color 0.1s 0.3s linear;
 }
 
 .form__button::before {
@@ -54,7 +54,7 @@
   top: -20px;
   left: -20px;
   z-index: 1;
-  transition: transform 1s linear;
+  transition: transform 0.3s linear;
   transform-origin: center right;
 }
 
@@ -65,7 +65,7 @@
 .form__button:hover {
   background-color:#2f80ed;
   color: white;
-  transition: background-color 0.3s 1s linear, color 0.3s 1s linear;
+  transition: background-color 0.1s 0.3s linear, color 0.1s 0.3s linear;
 }
 
 .form__button:active {
